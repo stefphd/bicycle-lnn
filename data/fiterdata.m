@@ -4,7 +4,7 @@ clear
 files = dir('*.mat');
 passband_freq = 10; %passband frequency (Hz)
 sampling_freq = 1000; %data sampling frequency (Hz)
-decimation = 20; %decimation
+decimation = 10; %decimation
 excludedVars = {'time', 'sample'}; %do not filter these
 
 %design filder
